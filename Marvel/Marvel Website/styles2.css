@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+
+#intro2 {
+
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    top: 1%;
+    left: 55%;
+    right: 10%;
+    font-size: 10mm;
+    color: red
+    
+
+
+
+}
+
+
+
+#intro3 {
+
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    right: 10%;
+    font-size: 5mm;
+    color: red
+
+
+}
+
+
+
+#intro4 {
+
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    right: 10%;
+    font-size: 5mm;
+    color: red
+
+
+
+}
+
+
+.iframe-container {
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 510px;
+    left: 1100px;
+    width: 30%;
+    height: 40%;
+    
+
+}
+
