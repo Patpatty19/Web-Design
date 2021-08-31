@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eudoxus Model</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+    var object1 = $('.blue-bars');
+                var object2 = $('.yellow-bars');
+                var object3 = $('.red-bars');
+                var object4 = $('.green-bars');
+                var object5 = $('.grey-bars');
+                var object6 = $('.pink-bars');
+
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/12);
+                    var valueY = (event.pageY * -1/12);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/15);
+                    var valueY = (event.pageY * -1/20);
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/15);
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/20);
+                    object4.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/25);
+                    var valueY = (event.pageY * -1/20);
+                    object5.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/25);
+                    object6.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+        });
+</script>
+</head>
+<body>
+    <img src="./images/blue-bars.png" class="blue-bars">
+    <img src="./images/yellow-bars.png" class="yellow-bars">
+    <img src="./images/red-bars.png" class="red-bars">
+    <img src="./images/green-bars.png" class="green-bars">
+    <img src="./images/grey-bars.png" class="grey-bars">
+    <img src="./images/pink-bars.png" class="pink-bars">
+
+    <div>
+      <ul class="topnav">
+      <a href="./index.html" class="button1"><img src="./images/CIIT logo (2).png" class= "navbar-logo"></a>
+      <li><a class = "button2" href="./writers.html">Writers</a></li>
+      <li><a class = "button1" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+      <div class="container" style="background-color: #00364D; margin-bottom: 100px; padding: 0%;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #00364D; padding: 0%;">
+          <div class="container" style="padding: 0%;">
+            <center>
+                <img src="./images/up.png" style="margin-top: 0%;">
+            </center>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-group" style="float: right; margin-right: 10px; width: 27%;">
+        <a href="./ken(essay1).html" class="list-group-item list-group-item-action flex-column align-items-start active" style="background-color:#00364D ;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Eudoxus Model</h5>
+            <small style="color: #dddddd;">March 18, 2021</small>
+          </div>
+          <p class="mb-1">Eudoxus’s planetary model is an outdated and incorrect model of the solar system/universe, but it is an example of how we can turn mistakes into great discoveries...</p>
+          <small style="color: #dddddd;">Ken Adrian A. Alupit</small>
+        </a>
+        <a href="./ken(essay2).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">A friend for everyone</h5>
+            <small class="text-muted">April 4, 2021</small>
+          </div>
+          <p class="mb-1">Patrick Miguel M. Babala, most commonly known as Pat, is a person that can befriend anyone he wants to. He is a very chill person, that is what makes him a very approachable person. He has been my friend ever since I started studying at CIIT SHS...</p>
+          <small class="text-muted">Ken Adrian A. Alupit</small>
+        </a>
+        <a href="./ken(essay3).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Becoming a CIITeen: What Track and/or Strand to Pursue?</h5>
+            <small class="text-muted">April 9, 2021</small>
+          </div>
+          <p class="mb-1">Cosmopoint International Institute of Technology or CIIT is a school that provides exceptional education and prepares students for the 21st-century industry standards. CIIT Senior High School offers three strands, media and visual arts under the arts and design track...</p>
+          <small class="text-muted">Ken Adrian A. Alupit</small>
+        </a>
+      <a href="./ken(essay4).html" id= "buttonessay3" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">5 Types of Online Students: What type of student are you?</h5>
+          <small class="text-muted">April 16, 2021</small>
+        </div>
+        <p class="mb-1">We live in a pandemic time right now. Almost all of the activities we do before are now done on the internet, and this includes education. The sudden shift in the delivery of knowledge reveals new types of students in the online environment...</p>
+        <small class="text-muted">Ken Adrian A. Alupit</small>
+      </a>
+    <a href="./ken(essay5).html" id= "buttonessay4" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">How to protect your computer from malicious software for free with Kaspersky</h5>
+          <small class="text-muted">April 28, 2021</small>
+        </div>
+        <p class="mb-1">Our computers are one of the most essential things in our lives, especially right now that there’s a pandemic where we use our computers almost all day, every day. We need to protect our computers in any way we can...</p>
+        <small class="text-muted">Ken Adrian A. Alupit</small>
+      </a>
+    </div>
+  </div>
+      <div class="jumbotron" style="float: left; margin-left: 10px; width: 70%;">
+        <div class="container">
+        <center>
+            <img src="./images/ken(essay1).png" class="blogpreview">
+            <h1 class="title">Eudoxus Model</h1>
+        </center>
+        <address>
+            <b>Ken Adrian A. Alupit</b><br>
+            March 18, 2021
+        </address>
+        <p class="indent">Eudoxus’s planetary model is an outdated and incorrect model of the solar
+          system/universe, but it is an example of how we can turn mistakes into great discoveries.
+          Eudoxus of Cnidus was an ancient Greek astronomer, mathematician, and scholar. He is also a
+          student of Archytas and Plato who are both ancient Greek philosophers. Eudoxus’s model is a
+          geocentric planetary model that depicts Earth as the center of the universe/solar system where
+          all of the heavenly bodies (i.e planets, solar systems, and stars) revolve around Earth. It is
+          unlike the heliocentric planetary model that is used today, where the planets revolve around the
+          sun. Eudoxus’s planetary model is undeniably incorrect. A reason for it to be incorrect is the use
+          of a geocentric planetary model instead of a heliocentric model that is more accurate.</p>
+        <p class="indent">There are also other reasons why it is considered incorrect. Eudoxus’s planetary model
+          helped shape our understanding of the solar system and planetary revolution by introducing
+          ideas and concepts on how the universe/solar system could have worked. Eudoxus is a
+          mathematician and an astronomer, which explains how he came up with his idea of a geocentric
+          solar system where he calculated the time in which the heavenly bodies revolve around Earth.
+          His model consists of 27 concentric spheres around Earth where each planet resides and
+          revolves opposite to each other creating a figure 8 motion. Eudoxus’s model depicts Earth as
+          the center of the solar system with the heavenly bodies arranged with the Moon at the closest
+          with three spheres, Mercury at the second with four spheres, Venus at the third with four
+          spheres, the Sun at the fourth with three spheres, Mars at the fifth with four spheres, Jupiter at
+          the sixth with four spheres, and Saturn in the seventh with four spheres. The model also has
+          fixed stars that reside on the last sphere.</p>
+        <p class="indent">The Eudoxus model answers the question of how the heavenly bodies revolve around
+          Earth with a specific schedule/time and the retrograde motion of the planets seen through Earth.
+          Eudoxus’s model is not representative of how the planets work. Considering the technology at
+          the time that Eudoxus created the model, it is a good representation and stepping stone to
+          further improve our knowledge of the solar system and the universe. Eudoxus’s model depicted
+          the arrangement of the heavenly bodies with accuracy and a few incorrect placements, but for
+          the most part, his model is representative of our understanding of the solar system today. His
+          model has been improved by other people as well. It is the reason why making a mistake is not
+          bad. It is because we can learn from those mistakes and adopt new methods for a better
+          understanding of the idea.</p>
+        <p class="indent">There is a lot of incorrect things about Eudoxus’s model. The model doesn’t take into
+          consideration the variable distance of the heavenly bodies. The brightness of the planets shoulddiffer depending on how far they are from Earth, but Eudoxus’s model doesn’t tackle the
+          phenomenon. Instead, the planets are placed in concentric spheres, which should make every
+          planet the same brightness wherever it is, which is not the case. The model also depicted that
+          the stars are fixed in place in the outermost sphere after Saturn, which is incorrect, and that the
+          Earth is also fixed in place and doesn’t revolve like the other planets. It also depicts the Sun in
+          the position of Earth. It is the first understanding of the placement of the Earth/Sun because it is
+          in the Bible.</p>
+        <p class="indent">The Eudoxus Model is not the greatest model of the universe/solar system because of
+          the incorrect parts. But it delivered a very detailed explanation of how the planets could have
+          worked. The model accounted for the retrograde motion of the planets and stars makes it a
+          geocentric solar system wherein Earth is in the middle of the solar system/universe. The model
+          has helped and inspired other people to work, experiment, and improve upon Eudoxus’s idea.
+          This is how Eudoxus’s planetary model helped shape our understanding of the solar system and
+          planetary revolution by providing other people a stepping stone for them to further improve his
+          idea. Even if an idea is wrong, it could still be helpful to other people by exploring more on how
+          they can improve on an idea by taking notes and inspiration into how the idea was made.
+          </p>
+        <br>
+        <center>
+            <p><b>References</b></p> </center>
+            <blockquote style="padding-left: 50px; padding-right: 50px;">
+              Pogge, R. (2008, November 28). Lecture 13: The Harmony of the Spheres: Greek Astronomy. Lecture 13: Greek Astronomy, from <a href="http://www.astronomy.ohio-state.edu/~pogge/Ast161/Unit3/greek.html">http://www.astronomy.ohio-state.edu/~pogge/Ast161/Unit3/greek.html</a><br><br>
+              Klus, H. (2017, August 6). Models of the Universe. The Star Garden, from <a href="http://www.thestargarden.co.uk/Heliocentric-models-of-the-Solar-System.html">http://www.thestargarden.co.uk/Heliocentric-models-of-the-Solar-System.html</a><br><br>
+              Britannica, T. Editors of Encyclopaedia (2019, April 2). Geocentric model. Encyclopedia Britannica, from <a href="https://www.britannica.com/science/geocentric-model">https://www.britannica.com/science/geocentric-model</a><br><br>
+              Mendell, H. Ross (2020, March 26). Eudoxus of Cnidus. Encyclopedia Britannica, from <a href="https://www.britannica.com/biography/Eudoxus-of-Cnidus">https://www.britannica.com/biography/Eudoxus-of-Cnidus</a>
+            </blockquote>
+      </div>
+    </div>
+    <center><a href="./writers.html" type="button" class="btn btn-primary btn-lg" style="margin-top: 20px; background-color:#00364D ; color: white;">Back</a></center>
+</body>
+</html>

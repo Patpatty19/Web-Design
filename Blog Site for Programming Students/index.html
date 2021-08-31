@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+    var object1 = $('.blue-bars');
+                var object2 = $('.yellow-bars');
+                var object3 = $('.red-bars');
+                var object4 = $('.green-bars');
+                var object5 = $('.grey-bars');
+                var object6 = $('.pink-bars');
+
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/12);
+                    var valueY = (event.pageY * -1/12);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/15);
+                    var valueY = (event.pageY * -1/20);
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/15);
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/20);
+                    object4.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/25);
+                    var valueY = (event.pageY * -1/20);
+                    object5.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/25);
+                    object6.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+        });
+</script>
+</head>
+<body>
+    <img src="./images/blue-bars.png" class="blue-bars">
+    <img src="./images/yellow-bars.png" class="yellow-bars">
+    <img src="./images/red-bars.png" class="red-bars">
+    <img src="./images/green-bars.png" class="green-bars">
+    <img src="./images/grey-bars.png" class="grey-bars">
+    <img src="./images/pink-bars.png" class="pink-bars">
+
+    <div>
+        <ul class="topnav">
+        <a href="./index.html" class="button1"><img src="./images/CIIT logo (2).png" class= "navbar-logo"></a>
+        <li><a class = "button2" href="./writers.html">Writers</a></li>
+        <li><a class = "button1" href="./index.html">Home</a></li>
+        </ul>
+      </div>
+     <div class="container" style="background-color: #00364D; margin-bottom: 100px; padding: 0%;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #00364D; padding: 0%;">
+          <div class="container" style="padding: 0%;">
+            <center><img src="./images/up.png" style="margin-top: 0%;"></center>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid" style="margin-bottom: 100px;">
+        <div style="width: 67%; padding: 0%; margin-left: 16%;">
+            <div class="jumbotron" style="width: 33.33%; float: left;">
+                <center>
+                <img src="./images/Pat.jpg" style="height: 250px; margin-bottom: 10px;">
+                <h2><a href="./writers.html" class="link">Patrick Miguel M. Babala</a></h2>
+                <hr class="my-4">
+                <p class="text">Patrick Miguel M. Babala is a Grade 11 Programming student in CIIT. He was born on March 19, 2004 and he is now 17 years old. He lives in Quezon City city right now...</p>
+                </center>
+              </div>
+              <div class="jumbotron" style="width: 33.33%; float: left;" >
+                <center>
+                <img src="./images/ken.jpg" style="height: 250px; margin-bottom: 10px;">
+                  <h2><a href="./writers.html" class="link">Ken Adrian A. Alupit</a></h2>
+                  <hr class="my-4">
+                  <p class="text">Christian Inguillo Denzon is a Grade 11 Programming student in CIIT. He was born on Aug 7, 2003 and he is now 17 years old. He lives in Cainta, Rizal right now...</p>
+                </center>
+              </div>
+              <div class="jumbotron" style=" margin-left: 33.33%;" >
+                <center>
+                <img src="./images/chris.jpg" style="height: 250px; margin-bottom: 10px;">
+                  <h2><a href="./writers.html" class="link">Christian I. Denzon</a></h2>
+                  <hr class="my-4">
+                  <p class="text">Ken Adrian A. Alupit is a Grade 11 Programming student in CIIT. He was born on Aug 23, 2003 and he is now 17 years old. He lives in Antipolo city right now...</p>
+                  </center>
+              </div>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color: #00364D; margin-top: 100px; padding: 25px; margin-bottom: 100px;"> 
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+        </ol>
+        <center><img src="./images/blogs.png" height="150px"></center>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container" style="padding: 20px; padding-top: 0%;">
+                    <center><img src="./images/pat(essay1).gif" class="blogpreview">
+                    <h2><a href="./pat(essay1).html" class="link">What are Celestial Bodies? (Comets, Asteroids, Dwarf Planets)</a></h2>
+                    <hr class="my-4">
+                  </center> 
+                      <p><b>Patrick Miguel M. Babala</b> March 15, 2021</p>
+                  <center>
+                    <p class="text">Humans are so interested in the world outside Earth. This world is called
+                        space. In space, there are discoveries of humans that are named as a Celestial
+                        Body. Earth is a celestial body in our Solar System. Other than planets, stars,
+                        comets, asteroids, meteors, and galaxies can be called a celestial body...</p>
+                   </center> 
+                  </div>
+                  </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                        <center><img src="./images/pat(essay2).jpg" class="blogpreview">
+                        <h2><a href="./pat(essay2).html" class="link">A Courageously Amiable Man</a></h2>
+                        <hr class="my-4">
+                      </center>
+                        <p><b>Patrick Miguel M. Babala</b> March 24, 2021</p>
+                      <center>
+                        <p class="text">At this day and age, people are giving up so easily. Trying isn’t even a word for them.
+                            Giving up easily is very normal at this era...</p>
+                            <br>
+                        </center>
+                      </div>
+                      </div>
+                    </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/pat(essay3).gif" class="blogpreview">
+                      <h2><a href="./pat(essay3).html" class="link">Becoming a CIITeen: What Track and/or Strand to Pursue?</a></h2>
+                      <hr class="my-4">
+                    </center>
+                      <p><b>Patrick Miguel M. Babala</b> April 5, 2021</p>
+                    <center>
+                      <p class="text">As we grow older and become more mature, we do not suffer from any childlike
+                        problems. Some of them can be still a problem but only a limited amount of it. One of the most
+                        important decision in our lives is what career should we pursue?..</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/pat(essay4).gif" class="blogpreview">
+                      <h2><a href="./pat(essay4).html" class="link">5 Types of Online Students: What type of student are you?</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Patrick Miguel M. Babala</b> April 13, 2021</p>
+                      <center>
+                      <p class="text">Online students are students that are attending online classes due to the
+                        pandemic that has been present for more than a year now. Every student in these
+                        online classes are suffering due to the overload of works and tasks...</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/pat(essay5).jpg" class="blogpreview">
+                      <h2><a href="./pat(essay5).html" class="link">How to Do CPR in a Correct and Safe Way</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Patrick Miguel M. Babala</b> April 19, 2021</p>
+                      <center>
+                      <p class="text">Saving one’s life makes you awesome and at the same time a savior. Saving one’s life is
+                        not easy and will never be easy. A chance of ending one’s life can be done if you do It in a wrong
+                        order or step...</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container" style="padding: 20px; padding-top: 0%;">
+                    <center><img src="./images/chris(essay1).jpg" class="blogpreview">
+                    <h2><a href="./chris(essay1).html" class="link">The Pythagorean Model</a></h2>
+                    <hr class="my-4">
+                    </center>
+                      <p><b>Christian I. Denzon</b> March 24, 2021</p>
+                    <center>
+                    <p class="text">I’m sure we’ve always wondered on how the stars and space looked like when we were a child. Now that we’ve all gotten older, we get more curious because of the complexity of what’s out there...</p>
+                    </center>
+                  </div>
+                  </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                        <center><img src="./images/chris(essay2).jpg" class="blogpreview">
+                        <h2><a href="./chris(essay2).html" class="link">Ken Adrian Alupit: The Little Things</a></h2>
+                        <hr class="my-4">
+                        </center>
+                          <p><b>Christian I. Denzon</b> April 3, 2021</p>
+                        <center>
+                        <p class="text">Children tend to adapt to things that we don't expect, may it be hobbies like watching television, playing games, and socializing. But now that I have grown up, I have realized that children tend to get influenced by their environment or surroundings...</p>
+                        </center>
+                      </div>
+                      </div>
+                    </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/chris(essay3).jpg" class="blogpreview">
+                      <h2><a href="./chris(essay3).html" class="link">Becoming a CIITeen: What Track and/or Strand to Pursue?</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Christian I. Denzon</b> April 25, 2021 </p>
+                      <center>
+                      <p class="text">When I was in Junior Highschool I often wondered what track and strand I wanted to pursue because I was unsure of my future and there are a lot of tracks and strand to choose from. However, I chose to pursue the Technical Vocation Track and then chose the ICT strand to learn programming...</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/chris(essay4).jpg" class="blogpreview">
+                      <h2><a href="./chris(essay4).html" class="link">5 Types of Online Students: What type of student are you?</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Christian I. Denzon</b> April 25, 2021 </p>
+                      <center>
+                      <p class="text">In online learning, there is bound to be many different kind of students like students who always want to sleep, play videogames, use social media, and more!..</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/chris(essay5).jpg" class="blogpreview">
+                      <h2><a href="./chris(essay5).html" class="link">The Possible Cause of a Slow Computer and its Effects</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Christian I. Denzon</b> April 26, 2021 </p>
+                      <center>
+                      <p class="text">In this time of pandemic, we've leaned onto using technology more, specifically computers. However, some people may face issues with their computers because they don't have the proper knowledge if their computers can handle the programs needed for their needs...</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container" style="padding: 20px; padding-top: 0%;">
+                    <center><img src="./images/ken(essay1).png" class="blogpreview">
+                    <h2><a href="./ken(essay1).html" class="link">Eudoxus Model</a></h2>
+                    <hr class="my-4">
+                    </center>
+                     <p><b>Ken Adrian A. Alupit</b> March 18, 2021</p>
+                    <center>
+                    <p class="text">Eudoxus’s planetary model is an outdated and incorrect model of the solar system/universe, but it is an example of how we can turn mistakes into great discoveries...</p>
+                    </center>
+                  </div>
+                  </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                        <center><img src="./images/ken(essay2).png" class="blogpreview">
+                        <h2><a href="./ken(essay2).html" class="link">A friend for everyone</a></h2>
+                        <hr class="my-4">
+                        </center>
+                          <p><b>Ken Adrian A. Alupit</b> April 4, 2021</p>
+                        <center>
+                        <p class="text">Patrick Miguel M. Babala, most commonly known as Pat, is a person that can befriend anyone he wants to. He is a very chill person, that is what makes him a very approachable person. He has been my friend ever since I started studying at CIIT SHS...</p>
+                        </center>
+                      </div>
+                      </div>
+                    </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/ken(essay3).png" class="blogpreview">
+                      <h2><a href="./ken(essay3).html" class="link">Becoming a CIITeen: What Track and/or Strand to Pursue?</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Ken Adrian A. Alupit</b> April 9, 2021</p>
+                      <center>
+                      <p class="text">Cosmopoint International Institute of Technology or CIIT is a school that provides exceptional education and prepares students for the 21st-century industry standards. CIIT Senior High School offers three strands, media and visual arts under the arts and design track...</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/ken(essay4).png" class="blogpreview">
+                      <h2><a href="./ken(essay4).html" class="link">5 Types of Online Students: What type of student are you?</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Ken Adrian A. Alupit</b> April 16, 2021</p>
+                      <center>
+                      <p class="text">We live in a pandemic time right now. Almost all of the activities we do before are now done on the internet, and this includes education. The sudden shift in the delivery of knowledge reveals new types of students in the online environment...</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container" style="padding: 20px; padding-top: 0%;">
+                      <center><img src="./images/ken(essay5).png" height="362px" style=" margin-bottom: 10px; margin-top: 0%;">
+                      <h2><a href="./ken(essay5).html" class="link">How to protect your computer from malicious software for free with Kaspersky</a></h2>
+                      <hr class="my-4">
+                      </center>
+                        <p><b>Ken Adrian A. Alupit</b> April 16, 2021</p>
+                      <center>
+                      <p class="text">Our computers are one of the most essential things in our lives, especially right now that there’s a pandemic where we use our computers almost all day, every day. We need to protect our computers in any way we can...</p>
+                      </center>
+                    </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+ 
+      <footer class="bg-light text-center text-lg-start" style="background-color: #222222;">
+        <div class="text-center p-3" style="background-color: #222222; color: white;">
+          © 2021 Copyright:
+          <a style="color:white;" href="#">CIITeens Speak</a>
+        </div>
+      </footer>
+</body>
+</html>

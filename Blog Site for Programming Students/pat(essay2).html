@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A Courageously Amiable Man</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+    var object1 = $('.blue-bars');
+                var object2 = $('.yellow-bars');
+                var object3 = $('.red-bars');
+                var object4 = $('.green-bars');
+                var object5 = $('.grey-bars');
+                var object6 = $('.pink-bars');
+
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/12);
+                    var valueY = (event.pageY * -1/12);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/15);
+                    var valueY = (event.pageY * -1/20);
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/15);
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/20);
+                    object4.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/25);
+                    var valueY = (event.pageY * -1/20);
+                    object5.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/25);
+                    object6.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+        });
+</script>
+</head>
+<body>
+    <img src="./images/blue-bars.png" class="blue-bars">
+    <img src="./images/yellow-bars.png" class="yellow-bars">
+    <img src="./images/red-bars.png" class="red-bars">
+    <img src="./images/green-bars.png" class="green-bars">
+    <img src="./images/grey-bars.png" class="grey-bars">
+    <img src="./images/pink-bars.png" class="pink-bars">
+
+    <div>
+      <ul class="topnav">
+      <a href="./index.html" class="button1"><img src="./images/CIIT logo (2).png" class= "navbar-logo"></a>
+      <li><a class = "button2" href="./writers.html">Writers</a></li>
+      <li><a class = "button1" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+      <div class="container" style="background-color: #00364D; margin-bottom: 100px; padding: 0%;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #00364D; padding: 0%;">
+          <div class="container" style="padding: 0%;">
+            <center>
+                <img src="./images/up.png" style="margin-top: 0%;">
+            </center>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-group" style="float: right; margin-right: 10px; width: 27%;">
+        <a href="./pat(essay1).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">What are Celestial Bodies? (Comets, Asteroids, Dwarf Planets)</h5>
+            <small>March 15, 2021</small>
+          </div>
+          <p class="mb-1">Humans are so interested in the world outside Earth. This world is called
+            space. In space, there are discoveries of humans that are named as a Celestial
+            Body. Earth is a celestial body in our Solar System. Other than planets, stars,
+            comets, asteroids, meteors, and galaxies can be called a celestial body...</p>
+          <small>Patrick Miguel M. Babala</small>
+        </a>
+        <a href="./pat(essay2).html" class="list-group-item list-group-item-action flex-column align-items-start active" style="background-color:#00364D ;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">A Courageously Amiable Man</h5>
+            <small style="color: #dddddd;">March 24, 2021</small>
+          </div>
+          <p class="mb-1">At this day and age, people are giving up so easily. Trying isn’t even a word for them.
+            Giving up easily is very normal at this era...</p>
+          <small style="color: #dddddd;">Patrick Miguel M. Babala</small>
+        </a>
+        <a href="./pat(essay3).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Becoming a CIITeen: What Track and/or Strand to Pursue?</h5>
+            <small class="text-muted">April 5, 2021</small>
+          </div>
+          <p class="mb-1">As we grow older and become more mature, we do not suffer from any childlike
+            problems. Some of them can be still a problem but only a limited amount of it. One of the most
+            important decision in our lives is what career should we pursue?..</p>
+          <small class="text-muted">Patrick Miguel M. Babala</small>
+        </a>
+      <a href="#" id= "buttonessay3" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">5 Types of Online Students: What type of student are you?</h5>
+          <small class="text-muted">April 13, 2021</small>
+        </div>
+        <p class="mb-1">Online students are students that are attending online classes due to the
+            pandemic that has been present for more than a year now. Every student in these
+            online classes are suffering due to the overload of works and tasks...</p>
+        <small class="text-muted">Patrick Miguel M. Babala</small>
+      </a>
+    <a href="./pat(essay5).html" id= "buttonessay4" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">How to Do CPR in a Correct and Safe Way</h5>
+          <small class="text-muted">April 19, 2021</small>
+        </div>
+        <p class="mb-1">Saving one’s life makes you awesome and at the same time a savior. Saving one’s life is
+            not easy and will never be easy. A chance of ending one’s life can be done if you do It in a wrong
+            order or step...</p>
+        <small class="text-muted">Patrick Miguel M. Babala</small>
+      </a>
+    </div>
+  </div>
+      <div class="jumbotron" style="float: left; margin-left: 10px; width: 70%;">
+        <div class="container">
+        <center>
+            <img src="./images/pat(essay2).jpg" class="blogpreview">
+            <h1 class="title">A Courageously Amiable Man</h1>
+        </center>
+        <address>
+            <b>Patrick Miguel M. Babala</b><br>
+            March 24, 2021
+        </address>
+        <p class="indent">At this day and age, people are giving up so easily. Trying isn’t even a word for them. 
+            Giving up easily is very normal at this era. In this world full of passionless and empty people, 
+            there is a man named Christian Denzon. A man that faces challenges without any fear. A man 
+            that keeps on striving to survive every single day. A man that does not give up. A man who will 
+            face more hardships in the future. Only few people knew how courageous and amiable this 
+            man is. He is Christian Denzon, a man with a strong will.</p>
+        <p class="indent">Christian is a simple yet outstanding man. He loves technology. Computers are one of 
+            his favorite things in life. Without his computer, his life is not complete. Some would say he is a 
+            computer nerd because he knows a lot about computers. He knows the hardware part of the 
+            computer and even the software part. He can be pretty lazy sometimes but he still passes in 
+            school. His grades are average in school and said that he is a “shut-in”. He loves playing 
+            computer games and makes computer games his stress reliever. He only socializes with his 
+            friends online and not with strangers. He also defined himself as a shy person. When it comes 
+            to interaction with strangers, his shyness shows. He has few friends but they treasure them all. 
+            Recently, a person became one of his very important people in his life. She is now his partner.</p>
+        <p class="indent">He is a normal kid in school when it comes to socializing. He usually socializes with boys. 
+            He met a girl in his life and did not expect that she would be his partner in the future. Before 
+            they become a couple, the girl was fresh from a breakup. He did his best to be there for her and 
+            did not leave her alone. Soon the girl realized his doings and they made their relationship clear. 
+            They are now partners! He helped the girl before to escape from a very toxic relationship. He 
+            did this like a “knight in shining armor” for her. Christian made up his mind before they become 
+            a couple. He wants to protect this girl from toxic men. He wants this girl to feel happiness. He 
+            wants to stay by her side all the time.</p>
+        <p class="indent">The pandemic started but it was no barrier for him. The only thing that is scaring 
+            Christian is academics in online classes. Fear of not learning anything is a part of it. It is very 
+            understandable because going to college is just 2 years from now. Learning in online classes is a 
+            very hard part for Christian. It is the same with other students who are having a hard time in 
+            online classes. Requirements are piling up, technical issues are occurring, and internet 
+            connection is not stable. Even though problems are occurring to him, his perseverance and 
+            strong will shows. He tries his best to learn from online classes, he tries his best to be patient, and he tries his best to have a strong heart. The pandemic is a long way from being over. 
+            Patience and perseverance are needed. Many students gave up in online classes but he is one 
+            of the students who are still striving to have a good future. He has goals and plans in the future 
+            that is why he thinks of this online classes as just a challenge to have a bright future.</p>
+        <p class="indent">Only few people in this world are like Christian. A good and brave man that will do 
+            anything for the better things in his life. At such a young age, he shows that he can survive in 
+            this world with his strong will. Christian will still grow as a person and will face more challenges. 
+            Giving up is not an answer to speed up life. As we grow older, more and more challenges will 
+            appear. “Striving for success without hard work is life trying to harvest where you haven’t 
+            planted”. – David Bly</p>
+        <br>
+        <center>
+            <p><b>References</b></p> </center>
+            <blockquote style="padding-left: 50px; padding-right: 50px;">
+                A quote by DAVID BLY. (n.d.). Retrieved March 24, 2021, from <a href="https://www.goodreads.com/quotes/598665-striving-for-success-without-hard-work-is-like-trying-to">https://www.goodreads.com/quotes/598665-striving-for-success-without-hard-work-is-like-trying-to</a><br><br>
+            </blockquote>
+      </div>
+    </div>
+    <center><a href="./writers.html" type="button" class="btn btn-primary btn-lg" style="margin-top: 20px; background-color:#00364D ; color: white;">Back</a></center>
+</body>
+</html>

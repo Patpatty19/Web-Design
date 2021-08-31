@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Pythagorean Model</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+    var object1 = $('.blue-bars');
+                var object2 = $('.yellow-bars');
+                var object3 = $('.red-bars');
+                var object4 = $('.green-bars');
+                var object5 = $('.grey-bars');
+                var object6 = $('.pink-bars');
+
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/12);
+                    var valueY = (event.pageY * -1/12);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/15);
+                    var valueY = (event.pageY * -1/20);
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/15);
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/20);
+                    object4.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/25);
+                    var valueY = (event.pageY * -1/20);
+                    object5.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/25);
+                    object6.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+        });
+</script>
+</head>
+<body>
+    <img src="./images/blue-bars.png" class="blue-bars">
+    <img src="./images/yellow-bars.png" class="yellow-bars">
+    <img src="./images/red-bars.png" class="red-bars">
+    <img src="./images/green-bars.png" class="green-bars">
+    <img src="./images/grey-bars.png" class="grey-bars">
+    <img src="./images/pink-bars.png" class="pink-bars">
+
+    <div>
+      <ul class="topnav">
+      <a href="./index.html" class="button1"><img src="./images/CIIT logo (2).png" class= "navbar-logo"></a>
+      <li><a class = "button2" href="./writers.html">Writers</a></li>
+      <li><a class = "button1" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+      <div class="container" style="background-color: #00364D; margin-bottom: 100px; padding: 0%;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #00364D; padding: 0%;">
+          <div class="container" style="padding: 0%;">
+            <center>
+                <img src="./images/up.png" style="margin-top: 0%;">
+            </center>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-group" style="float: right; margin-right: 10px; width: 27%;">
+        <a href="./chris(essay1).html" class="list-group-item list-group-item-action flex-column align-items-start active" style="background-color:#00364D ;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">The Pythagorean Model</h5>
+            <small style="color: #dddddd;">March 24, 2021</small>
+          </div>
+          <p class="mb-1">I’m sure we’ve always wondered on how the stars and space looked like when we were a child. Now that we’ve all gotten older, we get more curious because of the complexity of what’s out there...</p>
+          <small style="color: #dddddd;">Christian I. Denzon</small>
+        </a>
+        <a href="./chris(essay2).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Ken Adrian Alupit: The Little Things</h5>
+            <small class="text-muted">April 3, 2021</small>
+          </div>
+          <p class="mb-1">Children tend to adapt to things that we don't expect, may it be hobbies like watching television, playing games, and socializing. But now that I have grown up, I have realized that children tend to get influenced by their environment or surroundings...</p>
+          <small class="text-muted">Christian I. Denzon</small>
+        </a>
+        <a href="./chris(essay3).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Becoming a CIITeen: What Track and/or Strand to Pursue?</h5>
+            <small class="text-muted">April 25, 2021 </small>
+          </div>
+          <p class="mb-1">When I was in Junior Highschool I often wondered what track and strand I wanted to pursue because I was unsure of my future and there are a lot of tracks and strand to choose from. However, I chose to pursue the Technical Vocation Track and then chose the ICT strand to learn programming...</p>
+          <small class="text-muted">Christian I. Denzon</small>
+        </a>
+      <a href="./chris(essay4).html" id= "buttonessay3" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">5 Types of Online Students: What type of student are you?</h5>
+          <small class="text-muted">April 25, 2021 </small>
+        </div>
+        <p class="mb-1">In online learning, there is bound to be many different kind of students like students who always want to sleep, play videogames, use social media, and more!..</p>
+        <small class="text-muted">Christian I. Denzon</small>
+      </a>
+    <a href="./chris(essay5).html" id= "buttonessay4" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">The Possible Cause of a Slow Computer and its Effects</h5>
+          <small class="text-muted">April 26, 2021</small>
+        </div>
+        <p class="mb-1">In this time of pandemic, we've leaned onto using technology more, specifically computers. However, some people may face issues with their computers because they don't have the proper knowledge if their computers can handle the programs needed for their needs...</p>
+        <small class="text-muted">Christian I. Denzon</small>
+      </a>
+    </div>
+  </div>
+      <div class="jumbotron" style="float: left; margin-left: 10px; width: 70%;">
+        <div class="container">
+        <center>
+            <img src="./images/chris(essay1).jpg" class="blogpreview">
+            <h1 class="title">The Pythagorean Model</h1>
+        </center>
+        <address>
+            <b>Christian I. Denzon</b><br>
+            March 24, 2021
+        </address>
+        <p class="indent">I’m sure we’ve always wondered on how the stars and space looked like when we were a child.
+          Now that we’ve all gotten older, we get more curious because of the complexity of what’s out 
+          there. However, we must look back on how the ancient people looked at our universe before we 
+          came to our current theories about space. One of these theories is the Pythagorean Model, which 
+          is proposed by Philolaus, a student of Pythagoras. You may also know Pythagoras from the 
+          Pythagorean Theorem. Pythagoras’ theory about the model of the universe helped shape on what 
+          our current theories have become because of his teachings that inspired his students.</p>
+        <p class="indent">Pythagoras was known to be the first one that assumed the Earth is round, and that the heavenly 
+          bodies move around in circles. In the model that is proposed by him, the Earth is at rest at the 
+          center of the universe while everything rotates around it. He believed that the other planets and 
+          stars revolved around the center which in his model is the Earth. Pythagoras also said that the 
+          motions of the planets were mathematically related to musical sounds and numbers, and he called 
+          these “The Music of the Spheres”. After the declaration of his theories, his students or apprentices 
+          followed him in his footsteps in theorizing. One of his students is called Anaxagoras, he was 
+          credited with having figured out the relative positions of the sun, the moon, and Earth during solar 
+          and lunar eclipses. Another student of Pythagoras is Philolaus, he is the one that proposed that the 
+          Earth and the other planets did not revolve around the sun but rather a “central fire”.</p>
+        <p class="indent">Although there are many other theories about the universe, I believe that because of Pythagoras
+          and his philosophies and teachings, he has inspired many others to go in his footsteps to theorize 
+          on the universe. And because of that, our theories about are world or solar system today has been 
+          figured out. In conclusion, the theories that has been proposed by Pythagoras and then adopted by 
+          his students like Anaxagoras and Philolaus, has helped shaped our theories today.</p>
+          <br>
+        <center>
+            <p><b>References</b></p> </center>
+            <blockquote style="padding-left: 50px; padding-right: 50px;">
+              Huffman, C. (August 18, 2020). Philolaus. The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Edward N. Zalta (ed.), from <a href="https://plato.stanford.edu/archives/fall2020/entries/philolaus/">https://plato.stanford.edu/archives/fall2020/entries/philolaus/</a><br><br>
+              Mcclung, D. (March 23, 2014). Themcclungs. Historical Astronomy: Ancient Greeks: Pythagoras, from <a href="http://www.themcclungs.net/astronomy/people/pythagoras.html">http://www.themcclungs.net/astronomy/people/pythagoras.html</a><br><br>
+              Dr. Klus, H. (n.d). The Star Garden. How We Came to Know the Cosmos: Space & Time, from <a href="http://www.thestargarden.co.uk/Heliocentric-models-of-the-Solar-System.html#Ref3p1t">http://www.thestargarden.co.uk/Heliocentric-models-of-the-Solar-System.html#Ref3p1t</a><br><br>
+              Ferriols-Pavico, J. M., et al. (2016) Exploring Life Through Science Series: Physical Science. Pheonix K-12 Publishing House. Quezon CIty, Philippines.
+            </blockquote>
+      </div>
+    </div>
+    <center><a href="./writers.html" type="button" class="btn btn-primary btn-lg" style="margin-top: 20px; background-color:#00364D ; color: white;">Back</a></center>
+</body>
+</html>
