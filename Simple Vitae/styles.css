@@ -1,0 +1,38 @@
+body {
+    
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+
+}
+
+
+img{
+    padding-left:  23%;
+    padding-top: 5%;
+
+}
+div{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 4px solid rgb(212, 208, 208) ;
+    background-color: #000000 ;
+}
+h1{
+    text-align: center;
+    color: #a89e08  ;
+    font-family: Sans-serif;
+    
+}
+h2{
+    text-align: center;
+    color: rgb(212, 208, 208);
+    font-family: Helvetica;
+}
+a
+{
+
+font-size:30px;
+}
