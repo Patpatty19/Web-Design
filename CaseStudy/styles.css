@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ff9d4d;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 0 20px;
+
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #facc90;
+    transition: width .6s
+
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .6s
+}
+
+.center {
+    position: absolute;
+    left: 800px;
+    width: 300px;
+    height: 800px;
+
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    padding: 5vh;
+  }
+
+ 
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 50%;
+    padding: 5vh;
+  } 
+header {
+
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: rgb(97, 89, 211);
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(233, 230, 226);
+
+
+
+
+}
+
+
+header .logo {
+    color: rgb(0, 0, 0);
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20 px;
+   
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+
+
+}
+
+header nav {
+    float: right;
+
+}
+
+header .clearfix {
+
+    clear: both;
+
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+    background: rgb(213, 18, 231);
+    color: #ffff;
+    transition: 0.5s;
+
+}
+
+input[type=submit] {
+	background-color: #6e5bb3;
+	border: none;
+	color: #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+	margin: 10px -800px;
+	cursor: pointer;
+	
+  }
+
+  input[type=text] {
+	background-color: #ffffff;
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 10px 20px;
+	text-decoration: none;
+	margin: 5px 800px;
+	cursor: pointer;
+	
+  }
+
+  button[type=submit] {
+    background-color: #ffffff;
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 10px 20px;
+	text-decoration: none;
+	margin: 20px 800px;
+	cursor: pointer;
+	
+  }
+
