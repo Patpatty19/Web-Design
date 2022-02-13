@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>5 Types of Online Students: What type of student are you?</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+    var object1 = $('.blue-bars');
+                var object2 = $('.yellow-bars');
+                var object3 = $('.red-bars');
+                var object4 = $('.green-bars');
+                var object5 = $('.grey-bars');
+                var object6 = $('.pink-bars');
+
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/12);
+                    var valueY = (event.pageY * -1/12);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/15);
+                    var valueY = (event.pageY * -1/20);
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/15);
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/20);
+                    object4.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/25);
+                    var valueY = (event.pageY * -1/20);
+                    object5.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/25);
+                    object6.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+        });
+</script>
+</head>
+<body>
+    <img src="./images/blue-bars.png" class="blue-bars">
+    <img src="./images/yellow-bars.png" class="yellow-bars">
+    <img src="./images/red-bars.png" class="red-bars">
+    <img src="./images/green-bars.png" class="green-bars">
+    <img src="./images/grey-bars.png" class="grey-bars">
+    <img src="./images/pink-bars.png" class="pink-bars">
+
+    <div>
+      <ul class="topnav">
+      <a href="./index.html" class="button1"><img src="./images/CIIT logo (2).png" class= "navbar-logo"></a>
+      <li><a class = "button2" href="./writers.html">Writers</a></li>
+      <li><a class = "button1" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+      <div class="container" style="background-color: #00364D; margin-bottom: 100px; padding: 0%;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #00364D; padding: 0%;">
+          <div class="container" style="padding: 0%;">
+            <center>
+                <img src="./images/up.png" style="margin-top: 0%;">
+            </center>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-group" style="float: right; margin-right: 10px; width: 27%;">
+        <a href="./pat(essay1).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">5 Types of Online Students: What type of student are you?</h5>
+            <small>March 15, 2021</small>
+          </div>
+          <p class="mb-1">Humans are so interested in the world outside Earth. This world is called
+            space. In space, there are discoveries of humans that are named as a Celestial
+            Body. Earth is a celestial body in our Solar System. Other than planets, stars,
+            comets, asteroids, meteors, and galaxies can be called a celestial body...</p>
+          <small>Patrick Miguel M. Babala</small>
+        </a>
+        <a href="./pat(essay2).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">A Courageously Amiable Man</h5>
+            <small class="text-muted">March 24, 2021</small>
+          </div>
+          <p class="mb-1">At this day and age, people are giving up so easily. Trying isn’t even a word for them.
+            Giving up easily is very normal at this era...</p>
+          <small class="text-muted">Patrick Miguel M. Babala</small>
+        </a>
+        <a href="./pat(essay3).html" id= "buttonessay2" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Becoming a CIITeen: What Track and/or Strand to Pursue?</h5>
+            <small class="text-muted">April 5, 2021</small>
+          </div>
+          <p class="mb-1">As we grow older and become more mature, we do not suffer from any childlike
+            problems. Some of them can be still a problem but only a limited amount of it. One of the most
+            important decision in our lives is what career should we pursue?..</p>
+          <small class="text-muted">Patrick Miguel M. Babala</small>
+        </a>
+      <a href="./pat(essay4).html" id= "buttonessay3" class="list-group-item list-group-item-action flex-column align-items-start active" style="background-color:#00364D ;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">5 Types of Online Students: What type of student are you?</h5>
+          <small style="color: #dddddd;">April 13, 2021</small>
+        </div>
+        <p class="mb-1">Online students are students that are attending online classes due to the
+            pandemic that has been present for more than a year now. Every student in these
+            online classes are suffering due to the overload of works and tasks...</p>
+        <small style="color: #dddddd;">Patrick Miguel M. Babala</small>
+      </a>
+    <a href="./pat(essay5).html" id= "buttonessay4" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">How to Do CPR in a Correct and Safe Way</h5>
+          <small class="text-muted">April 19, 2021</small>
+        </div>
+        <p class="mb-1">Saving one’s life makes you awesome and at the same time a savior. Saving one’s life is
+            not easy and will never be easy. A chance of ending one’s life can be done if you do It in a wrong
+            order or step...</p>
+        <small class="text-muted">Patrick Miguel M. Babala</small>
+      </a>
+    </div>
+  </div>
+
+      <div class="jumbotron" style="float: left; margin-left: 10px; width: 70%;  ">
+        <div class="container">
+        <center>
+            <img src="./images/pat(essay4).gif" class="blogpreview">
+            <h1 class="title">5 Types of Online Students: What type of student are you?</h1>
+        </center>
+        <address>
+            <b>Patrick Miguel M. Babala</b><br>
+            April 13, 2021
+        </address>
+        <p class="indent">Online students are students that are attending online classes due to the 
+          pandemic that has been present for more than a year now. Every student in these 
+          online classes are suffering due to the overload of works and tasks. Some 
+          students would say they have 7-8 tasks per day. This could result students to burn 
+          out and get stressed. Social media showed the type of students attending their 
+          online classes in this year. Each individual is different from other individuals, 
+          which means they have different personalities and traits. These individuals are 
+          students. Different kinds of students attending online classes showed their 
+          outmost personality when it comes to their classes. Here are some kinds of 
+          students attending online classes.</p>
+        <p class="indent">The first one is the asleep/ghost type of student. In a recent study, 53.5% of 
+          students are sleeping during classes. Almost all of the classes in online classes 
+          right now has this kind of student. These are the students that do not talk and 
+          respond to teachers when they are being asked or called out. They will attend 
+          their online classes but once you call their name, they won’t respond or chat. 
+          They could be asleep or just ghosting the teacher. Almost all of the classes start at 
+          8 in the morning. Students wake up the minute their classes start resulting to 
+          some students sleeping over their classes. Some would prefer sleeping through 
+          the entire synchronous class and just look at the recorded lecture afterwards. 
+          Lack of their sleep are sometimes caused by too much playing of video games at 
+          night.</p>
+        <p class="indent">Second type of student in online classes is the gamer student. If the sleepy 
+          students were sleeping caused by too much playing video games at night, these 
+          students prefer to play while attending online classes. According to a certain 
+          study, 30.1% of students prefer to play mobile and computer games while having 
+          their synchronous session. Some classes do not require turning on their cameras, 
+          which means gamers can play games without getting caught by their teachers. 
+          This results that a student can literally just mute their zoom meeting or google meet and just play. They can also be called a ghost type of student but gamers 
+          reply and interact with their lecturer to avoid getting caught by them. Sometimes 
+          they would answer the questions the lecturer gave at the same time they are 
+          playing. Some would use social media to invite some of their friends to play with 
+          them while their friends are also attending online classes.</p>
+        <p class="indent">Third type of student is the social media student. In a recent study, 13.8% 
+          of students are using social media. These students are the ones that are very 
+          active in social media but not that active in online classes. They respond to the 
+          lecturers and they are more active than the gamer ones. They could also be called 
+          as the meme sharer ones. All they do in social media is to share memes while 
+          having their synchronous session. You could see them sharing every post they see 
+          in Facebook and Twitter. Youtube is also included when it comes to social media 
+          students. Instead of watching the lecture of their classes, they would rather watch 
+          videos in youtube. Tiktok is also a big part of the social media platform when it 
+          comes to students. But some students use social media for their academic 
+          purposes especially when it comes to their research and surveys. </p>
+        <p class="indent">The fourth type of student is the serious and active student. In a recent 
+          study, 26.6% of students are active in their classes. These are the students that 
+          are very active in synchronous classes. These are the students that always 
+          answers the question of the lecturer. They also open their mics and cameras. 
+          Nothing can distract them from their classes. Not games, social media, or their 
+          sleep schedule. They balance out the tasks and do it every single day, they play 
+          games but not as much as it could destroy their sleeping schedule. Their sleep 
+          schedule is followed so that they can attend their classes ready for the next 
+          morning. Being a leader in a group work is mostly the most active one in class. 
+          Students with honors are considered the most active ones in class. Hardware 
+          equipment and wifi connection is not a problem to them.</p>
+        <p class="indent">The fifth and last type of student is the internet connection problem 
+          student. In a recent study, 61% of students are having internet problems during 
+          internet classes. Almost all of the student attending online classes experience 
+          problem in their internet connection. Internet connection before the pandemic in 
+          the Philippines is slow and below average. Now that online classes are 
+          implemented, their last resort is their internet connection. Even the lecturers 
+          sometimes have internet problems. I could argue that this is the biggest obstacle and challenge here in online classes. Without internet connection, no tasks can be 
+          submitted and worked on, attending a synchronous session is far from being 
+          possible, and learning is not an option.</p>
+        <p class="indent">There are many more types of students during online classes but these are 
+          the most famous ones. Every student is different from each other, some have fast 
+          paced type of learning method but some have slow paced type of learning 
+          method. Out of all 5 types of students, the internet connection problem type of 
+          student can be every student. Most of us are not gifted and cannot afford 
+          internet connection. Some would pay up to thousands of pesos every week just to 
+          keep up with their classes. Lecturers should also place themselves at the position 
+          of their students. If students have a problem with their internet connection, 
+          lecturers could excuse them because it is a valid reason. Helping each other in 
+          these hard times is a must. Work will be easier if everyone is helping with each 
+          other. Being ignorant is one of the traits we should avoid during our online 
+          classes. Attending online classes is not a joke and it should be taken more 
+          seriously.</p>
+      </div>
+    </div>
+    <br>
+    <center><a href="./writers.html" type="button" class="btn btn-primary btn-lg" style="margin-top: 20px; background-color:#00364D ; color: white; ">Back</a></center>
+</body>
+</html>

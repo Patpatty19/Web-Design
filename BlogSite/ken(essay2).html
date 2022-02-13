@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A friend for everyone</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+    var object1 = $('.blue-bars');
+                var object2 = $('.yellow-bars');
+                var object3 = $('.red-bars');
+                var object4 = $('.green-bars');
+                var object5 = $('.grey-bars');
+                var object6 = $('.pink-bars');
+
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/12);
+                    var valueY = (event.pageY * -1/12);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/15);
+                    var valueY = (event.pageY * -1/20);
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/15);
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/20);
+                    object4.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/25);
+                    var valueY = (event.pageY * -1/20);
+                    object5.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/25);
+                    object6.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+        });
+</script>
+</head>
+<body>
+    <img src="./images/blue-bars.png" class="blue-bars">
+    <img src="./images/yellow-bars.png" class="yellow-bars">
+    <img src="./images/red-bars.png" class="red-bars">
+    <img src="./images/green-bars.png" class="green-bars">
+    <img src="./images/grey-bars.png" class="grey-bars">
+    <img src="./images/pink-bars.png" class="pink-bars">
+
+    <div>
+      <ul class="topnav">
+      <a href="./index.html" class="button1"><img src="./images/CIIT logo (2).png" class= "navbar-logo"></a>
+      <li><a class = "button2" href="./writers.html">Writers</a></li>
+      <li><a class = "button1" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+      <div class="container" style="background-color: #00364D; margin-bottom: 100px; padding: 0%;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #00364D; padding: 0%;">
+          <div class="container" style="padding: 0%;">
+            <center>
+                <img src="./images/up.png" style="margin-top: 0%;">
+            </center>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-group" style="float: right; margin-right: 10px; width: 27%;">
+        <a href="./ken(essay1).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Eudoxus Model</h5>
+            <small class="text-muted">March 18, 2021</small>
+          </div>
+          <p class="mb-1">Eudoxus’s planetary model is an outdated and incorrect model of the solar system/universe, but it is an example of how we can turn mistakes into great discoveries...</p>
+          <small class="text-muted">Ken Adrian A. Alupit</small>
+        </a>
+        <a href="./ken(essay2).html" class="list-group-item list-group-item-action flex-column align-items-start active" style="background-color:#00364D ;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">A friend for everyone</h5>
+            <small style="color: #dddddd;">April 4, 2021</small>
+          </div>
+          <p class="mb-1">Patrick Miguel M. Babala, most commonly known as Pat, is a person that can befriend anyone he wants to. He is a very chill person, that is what makes him a very approachable person. He has been my friend ever since I started studying at CIIT SHS...</p>
+          <small style="color: #dddddd;">Ken Adrian A. Alupit</small>
+        </a>
+        <a href="./ken(essay3).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Becoming a CIITeen: What Track and/or Strand to Pursue?</h5>
+            <small class="text-muted">April 9, 2021</small>
+          </div>
+          <p class="mb-1">Cosmopoint International Institute of Technology or CIIT is a school that provides exceptional education and prepares students for the 21st-century industry standards. CIIT Senior High School offers three strands, media and visual arts under the arts and design track...</p>
+          <small class="text-muted">Ken Adrian A. Alupit</small>
+        </a>
+      <a href="./ken(essay4).html" id= "buttonessay3" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">5 Types of Online Students: What type of student are you?</h5>
+          <small class="text-muted">April 16, 2021</small>
+        </div>
+        <p class="mb-1">We live in a pandemic time right now. Almost all of the activities we do before are now done on the internet, and this includes education. The sudden shift in the delivery of knowledge reveals new types of students in the online environment...</p>
+        <small class="text-muted">Ken Adrian A. Alupit</small>
+      </a>
+    <a href="./ken(essay5).html" id= "buttonessay4" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">How to protect your computer from malicious software for free with Kaspersky</h5>
+          <small class="text-muted">April 28, 2021</small>
+        </div>
+        <p class="mb-1">Our computers are one of the most essential things in our lives, especially right now that there’s a pandemic where we use our computers almost all day, every day. We need to protect our computers in any way we can...</p>
+        <small class="text-muted">Ken Adrian A. Alupit</small>
+      </a>
+    </div>
+  </div>
+      <div class="jumbotron" style="float: left; margin-left: 10px; width: 70%;">
+        <div class="container">
+        <center>
+            <img src="./images/ken(essay2).png" class="blogpreview">
+            <h1 class="title">A friend for everyone</h1>
+        </center>
+        <address>
+            <b>Ken Adrian A. Alupit</b><br>
+            April 4, 2021
+        </address>
+        <p class="indent">Patrick Miguel M. Babala, most commonly known as Pat, is a person that can befriend
+          anyone he wants to. He is a very chill person, that is what makes him a very approachable
+          person. He has been my friend ever since I started studying at CIIT SHS. I can see him making
+          friends with other people while the school year hasn't even started yet. The act of befriending
+          people that you have never met before. Even when the school year hasn't started, and while we
+          are on a work-at-home set up because of the pandemic, is impressive. As soon as the school
+          year started, Patrick's friends in CIIT grew, and now I am a part of the group of friends that
+          Patrick had made. Those actions get to show that people like him can connect people like me to
+          other people.</p>
+        <p class="indent">Patrick is a friendly person. He had made friends with many types of people in CIIT and
+          presumably a lot more before. He had befriended people from other sections and strands, and
+          even seniors in CIIT on and before the school year had started. Patrick is an extroverted guy
+          which explains how he can make friends with different types of people with ease. Patrick
+          connects people by just being himself. An example of this is how I ended up in a friendship with
+          his friends that he made before the school year has started. Little by little, his friends also
+          became my friends.
+          </p>
+        <p class="indent">In terms of talking and chatting, Patrick is a very approachable person. He is always
+          there when you need someone to talk to. When it comes to casual conversations, he is always
+          fun to chat or talk to because he always has ways to make things very interesting and fun. In
+          terms of serious talks with Patrick like, problems and such, he always has ways to lessen the
+          tension and calm things down. He is a joyful person, and that is what makes him a lovely person
+          to talk to. It is not always a problem to approach Patrick and talk about something with him.
+          </p>
+        <p class="indent">Patrick is wonderfully supportive of his friends. He always supports his friends in their
+          hobbies and achievements. I always see him showing his support whatever he can to other
+          people especially, those who have an artistic background who make art. It is nice to know that
+          you have a friend like him because you know that there will always be someone there to support
+          you in your hobbies and achievements. He is always there for his friends. If it is for the support
+          or companionship you need, you can count on him to be there for you.</p>
+        <p class="indent">Patrick is a very wonderful person. But he is not the best person in the world, he is not
+          the most extraordinary person but; that doesn't mean that he is not a very special person. He is
+          the type of person that can befriend anyone that he wants to because of his very friendly
+          attributes. But he is not the only one with those attributes. Patrick is very special because he is
+          my friend, our friend that is what makes him very special. There will be a person out there or
+          even multiple people just like him. It is just a matter of you finding your Patrick Miguel Babala.
+          </p>
+      </div>
+    </div>
+    <center><a href="./writers.html" type="button" class="btn btn-primary btn-lg" style="margin-top: 20px; background-color:#00364D ; color: white;">Back</a></center>
+</body>
+</html>

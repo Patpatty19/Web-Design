@@ -1,0 +1,133 @@
+.blue-bars{
+    z-index: -1;
+    position:fixed;
+    top: 60%;
+    right: 90%;
+}
+.yellow-bars{
+    z-index: -1;
+    position:fixed;
+    bottom: 70%;
+    left: 90%;
+}
+.green-bars{
+    z-index: -1;
+    position:fixed;
+    top: 50%;
+    left: 80%;
+}
+.grey-bars{
+    z-index: -1;
+    position:fixed;
+    bottom: 50%;
+    right: 80%;
+}
+.red-bars{
+    z-index: -1;
+    position:fixed;
+    bottom: 60%;
+    right: 50%;
+}
+.pink-bars{
+    z-index: -1;
+    position:fixed;
+    top: 70%;
+    left: 90%;
+}
+.link{
+    color: #00364D;
+}
+.text{
+    color: #205968;
+}
+.navbar-logo{
+    width:15%;
+    padding: 10px;
+    border: 0px;
+    margin: 10px;
+    padding-right: 0px;
+    float: left;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-y:hidden;
+    overflow-x:visible;
+    background-color: #222222;
+  }
+  
+ul.topnav li {float: right;}
+  
+ul.topnav li a {
+display: block;
+color: white;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 10px;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 120%;
+}
+
+ul.topnav li .button1:hover:not(.active) {background-color: #e53c2e;}
+ul.topnav li .button2:hover:not(.active) {background-color: #6cc049;}
+ul.topnav li .button3:hover:not(.active) {background-color: #ff9e15;}
+ul.topnav li .button4:hover:not(.active) {background-color: #f55096;}
+ul.topnav li .button5:hover:not(.active) {background-color: #d1d2d2;}
+ul.topnav li .button6:hover:not(.active) {background-color: #00a5b5;}
+
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+@media screen and (max-width: 600px) {
+ul.topnav li.right, 
+ul.topnav li {float: none;}
+}
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.about .image{
+    flex:1 1 20rem;
+    margin:0% ;
+}
+
+.about .image img{
+    width:80%;
+  
+}
+
+.about .content{
+    flex:1 1 40rem;
+   
+}
+
+.about .content h1{
+   
+    font-size: 5rem;
+    color: #00364D;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color: #205968;
+    padding:1rem 0;
+}
+.blogpreview{
+    margin-top: 0%;
+    margin-bottom: 10px;
+    height: 400px;
+}
+.indent{
+    text-indent: 50px;
+    color: #205968;
+}
+.title{
+    color:#00364D ;
+    margin-bottom: 10px;
+}

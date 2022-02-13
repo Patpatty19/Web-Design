@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Becoming a CIITeen: What Track and/or Strand to Pursue?</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+    var object1 = $('.blue-bars');
+                var object2 = $('.yellow-bars');
+                var object3 = $('.red-bars');
+                var object4 = $('.green-bars');
+                var object5 = $('.grey-bars');
+                var object6 = $('.pink-bars');
+
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/12);
+                    var valueY = (event.pageY * -1/12);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/15);
+                    var valueY = (event.pageY * -1/20);
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/15);
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/20);
+                    object4.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/25);
+                    var valueY = (event.pageY * -1/20);
+                    object5.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+                $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/20);
+                    var valueY = (event.pageY * -1/25);
+                    object6.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+        });
+</script>
+</head>
+<body>
+    <img src="./images/blue-bars.png" class="blue-bars">
+    <img src="./images/yellow-bars.png" class="yellow-bars">
+    <img src="./images/red-bars.png" class="red-bars">
+    <img src="./images/green-bars.png" class="green-bars">
+    <img src="./images/grey-bars.png" class="grey-bars">
+    <img src="./images/pink-bars.png" class="pink-bars">
+
+    <div>
+      <ul class="topnav">
+      <a href="./index.html" class="button1"><img src="./images/CIIT logo (2).png" class= "navbar-logo"></a>
+      <li><a class = "button2" href="./writers.html">Writers</a></li>
+      <li><a class = "button1" href="./index.html">Home</a></li>
+      </ul>
+    </div>
+      <div class="container" style="background-color: #00364D; margin-bottom: 100px; padding: 0%;">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #00364D; padding: 0%;">
+          <div class="container" style="padding: 0%;">
+            <center>
+                <img src="./images/up.png" style="margin-top: 0%;">
+            </center>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-group" style="float: right; margin-right: 10px; width: 27%;">
+        <a href="./pat(essay1).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">What are Celestial Bodies? (Comets, Asteroids, Dwarf Planets)</h5>
+            <small>March 15, 2021</small>
+          </div>
+          <p class="mb-1">Humans are so interested in the world outside Earth. This world is called
+            space. In space, there are discoveries of humans that are named as a Celestial
+            Body. Earth is a celestial body in our Solar System. Other than planets, stars,
+            comets, asteroids, meteors, and galaxies can be called a celestial body...</p>
+          <small>Patrick Miguel M. Babala</small>
+        </a>
+        <a href="./pat(essay2).html" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">A Courageously Amiable Man</h5>
+            <small class="text-muted">March 24, 2021</small>
+          </div>
+          <p class="mb-1">At this day and age, people are giving up so easily. Trying isn’t even a word for them.
+            Giving up easily is very normal at this era...</p>
+          <small class="text-muted">Patrick Miguel M. Babala</small>
+        </a>
+        <a href="./pat(essay3).html" id= "buttonessay2" class="list-group-item list-group-item-action flex-column align-items-start active" style="background-color:#00364D ;">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Becoming a CIITeen: What Track and/or Strand to Pursue?</h5>
+            <small style="color: #dddddd;">April 5, 2021</small>
+          </div>
+          <p class="mb-1">As we grow older and become more mature, we do not suffer from any childlike
+            problems. Some of them can be still a problem but only a limited amount of it. One of the most
+            important decision in our lives is what career should we pursue?..</p>
+          <small style="color: #dddddd;">Patrick Miguel M. Babala</small>
+        </a>
+      <a href="./pat(essay4).html" id= "buttonessay3" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">5 Types of Online Students: What type of student are you?</h5>
+          <small class="text-muted">April 13, 2021</small>
+        </div>
+        <p class="mb-1">Online students are students that are attending online classes due to the
+            pandemic that has been present for more than a year now. Every student in these
+            online classes are suffering due to the overload of works and tasks...</p>
+        <small class="text-muted">Patrick Miguel M. Babala</small>
+      </a>
+    <a href="./pat(essay5).html" id= "buttonessay4" class="list-group-item list-group-item-action flex-column align-items-start" style="color: #205968;">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">How to Do CPR in a Correct and Safe Way</h5>
+          <small class="text-muted">April 19, 2021</small>
+        </div>
+        <p class="mb-1">Saving one’s life makes you awesome and at the same time a savior. Saving one’s life is
+            not easy and will never be easy. A chance of ending one’s life can be done if you do It in a wrong
+            order or step...</p>
+        <small class="text-muted">Patrick Miguel M. Babala</small>
+      </a>
+    </div>
+  </div>
+
+      <div class="jumbotron" style="float: left; margin-left: 10px; width: 70%;">
+        <div class="container">
+        <center>
+            <img src="./images/pat(essay3).gif" class="blogpreview">
+            <h1 class="title">Becoming a CIITeen: What Track and/or Strand to Pursue?</h1>
+        </center>
+        <address>
+            <b>Patrick Miguel M. Babala</b><br>
+            April 5, 2021
+        </address>
+        <p class="indent">As we grow older and become more mature, we do not suffer from any childlike 
+            problems. Some of them can be still a problem but only a limited amount of it. One of the most 
+            important decision in our lives is what career should we pursue? As a student, tracks are the 
+            most important paths toward careers. Studying a certain track can help us students narrow 
+            down our choices of careers. If you have passion towards photography and multimedia, Media 
+            and Visual Arts track will do the thing for you. If 3d modeling and Storyboard are the works you 
+            want to do, Animation track will be best for you. If coding and software developing are your 
+            passion, then the Programming track is the one that is best for you. Each tracks are very 
+            different yet similar with each other. They can help you pursue a creative or artistic careers.</p>
+        <p class="indent">Media and Visual Arts track focuses on photography and multimedia art. These two 
+            things are different but connected with each other. Photography needs the help of multimedia, 
+            while multimedia needs the help of photography at some point. Specialization subjects of this 
+            track are digital photography, fundamentals of film and video production, writing for new 
+            media, and multimedia publishing. Once you have learned these particular subjects, some 
+            careers connected to this track are waiting. Career options are being a videographer, 
+            photographer, production designer, graphic designer illustrator, and a digital artist. Some of 
+            these careers are very in demand right now. Which means companies are searching for people 
+            that exceeds in this track. Logos, designs, billboards, and other designing work are an example 
+            of what job you could have if you pursue this track.</p>
+        <p class="indent">Graphic designs are one of the most important skill you need in the art industry.
+            Animation track also teaches graphic design. While media and visual arts focuses on 
+            photography and multimedia art, animation track focuses on animation of 3d modeling made 
+            my animators. Animation is not the only thing they teach in this track, storyboard and layout 
+            are also being taught here. 3d modeling are nothing without its storyboard and layout. 2d and 
+            3d perspective are what expert animators excel of. If you have the skill and talent to become an 
+            expert animator in the future then the careers you can have are: dynamic or animated web 
+            designer, storyboard artist, 2d and 3d layout artist, 3d animator, and 3d architectural designer. 
+            Companies that works on animation have a high amount of pay. Being an excellent animator 
+            takes so much skill which means being one of them is a must have for higher companies. Disney 
+            animators are an example of excellent animators.</p>
+        <p class="indent">Besides art related careers, a certain track is also being taught in CIIT. This is the 
+            Computer Programming track. As a student who had no programming background before in 
+            high school, this is the correct school to enroll to if you want to learn on how to code and 
+            program a software. Programmers at this day and age are very in demand. Only few have the skill to program and code. Option for a career in programming are: system programmer, system 
+            analyst, software application developer/engineer, graphics programmer, game designer, and 
+            senior interactive software developer. A programmer takes too much skill because you are 
+            dealing with the software of the computer. Some would argue as a programmer you are 
+            basically talking to the computer. Being a programmer is very hard and programming or coding 
+            is a very hard thing to do. Once you mastered the art of coding, creating a software is basically 
+            an easy task.</p>
+        <p class="indent">Each of these tracks are very different yet very similar with each other. They can all 
+            work in the same company. A video game company has all of this people that exceeds in 
+            multimedia, animation, and programming. Multimedia experts deal with character designs, 
+            Animation experts deal with the movement and 3d modeling of the environment of the game. 
+            They could also do the storyboard and layout. Programming experts combine both the 
+            characters and the movements in a particular software that runs the game. Each of these tracks 
+            work very well with each other. All of the completed works combined to a single completed 
+            work can represent a successful company. It could a video game company, advertising 
+            company, movie company and many more. Designing is one of the similar traits each of these 
+            tracks have. Each track has different specialization subjects and career options but are still 
+            connected with each other in a way. Without the help of the other track, work might pile up 
+            and has the chance of not finishing the task.</p>
+      </div>
+    </div>
+    <center><a href="./writers.html" type="button" class="btn btn-primary btn-lg" style="margin-top: 20px; background-color:#00364D ; color: white;">Back</a></center>
+</body>
+</html>
