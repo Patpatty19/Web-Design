@@ -1,2 +1,2 @@
 # Newsletter website
-This is a simple newsletter website that contains information of Philippine Basketball Association.
+This is a simple newsletter website that contains information about the Philippine Basketball Association.
